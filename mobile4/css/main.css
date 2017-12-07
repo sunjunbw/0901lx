@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+html, body {
+  height: 100%; }
+
+body {
+  padding-top: 3.16rem;
+  padding-bottom: 1.76rem; }
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 1.76rem;
+  top: 0;
+  background: #0dc441;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.4rem; }
+  header .iconfont {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem; }
+  header .btn {
+    font-size: 0.6rem; }
+    header .btn a {
+      color: rgba(255, 255, 255, 0.5);
+      padding: 5px 10px;
+      background: rgba(255, 255, 255, 0.2); }
+      header .btn a:first-child {
+        border-radius: 8px 0 0 8px; }
+      header .btn a:last-child {
+        border-radius: 0 8px 8px 0; }
+      header .btn a.active {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.5); }
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 1.76rem;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.6rem;
+  border-top: 1px solid #d6d6d6;
+  background: #fff; }
+  footer a {
+    display: block;
+    text-align: center;
+    color: #d6d6d6; }
+    footer a.active {
+      color: #0dc441; }
+  footer .iconfont {
+    font-size: 0.8rem; }
+  footer .round {
+    background: #fff;
+    align-self: flex-end;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 2rem;
+    border: 1px solid #d6d6d6; }
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 1.4rem;
+  top: 1.76rem;
+  line-height: 1.4rem;
+  display: flex;
+  font-size: 0.56rem;
+  background: #fff; }
+  nav a {
+    flex-grow: 1;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #d6d6d6; }
+    nav a.active {
+      color: #0dc441;
+      border-bottom: 2px solid #0dc441; }
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.64rem;
+  overflow: auto; }
+  main .block {
+    width: 50%;
+    padding: 5px; }
+    main .block img {
+      width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
